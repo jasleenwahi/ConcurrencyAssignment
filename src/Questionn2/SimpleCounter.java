@@ -1,4 +1,4 @@
-package Question1;
+package Questionn2;
 
 public class SimpleCounter
 {
