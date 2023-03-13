@@ -19,7 +19,8 @@ class ExecutorDemo
 {
 
     public static void main(String[] args) {
-        ExecutorService executorService = Executors.newFixedThreadPool(10);
+
+        ExecutorService executorService = Executors.newSingleThreadExecutor();
         for(int index=0; index<10; index++)
         {
             Task task = new Task(index);
